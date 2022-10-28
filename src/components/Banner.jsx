@@ -1,18 +1,20 @@
 import background from '../assets/Background.png'
-import dotbackground from '../assets/dotbackground.png'
-import IMG from '../assets/IMG.png'
+import bannerImage from '../assets/bannerImage.png'
+import bannerMobile from '../assets/bannerMobile.png'
+import kalenEmsley from '../assets/kalenEmsley.png'
+import '../style/banner.css'
 
 function Banner() {
     return (
         <section className="bannerContainer">
-            <div className="imageContainer">
-                <img src={background} alt='logo application Kasa' className='background'/>
-                <img src={IMG} alt='logo application Kasa' className='imageBanner'/>
-                <img src={dotbackground} alt='logo application Kasa' className='imageDot'/>
-                <p>
-                   Chez vous, partout et ailleurs
-                </p>
-            </div>
+            <img src={kalenEmsley} alt='trees, rocks, sea' className='bannerAboutImage'/>
+            <img src={bannerMobile} alt='trees, rocks, sea' className='bannerMobileImage'/>
+            <img src={bannerImage} alt='trees, rocks, sea' className='bannerImage'/>
+            
+            <img src={background} alt='black background' className='bannerBackground'/>
+
+            
+            <p>Chez vous, partout et ailleurs</p>
         </section>
     )
 }

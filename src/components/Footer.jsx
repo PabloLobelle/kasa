@@ -1,4 +1,5 @@
 import logo from '../assets/logobw.png'
+import '../style/footer.css'
 
 function Footer() {
     return (

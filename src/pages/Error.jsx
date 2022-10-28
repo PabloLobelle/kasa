@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import '../style/index.css';
 import Header from '../components/Header';
+import '../style/error.css';
 
 function Error() {
 
@@ -8,9 +8,11 @@ function Error() {
     <div className="Error">
       <Header />
       <section>
-        <h1 className='error__title'>404</h1>
-        <p className='error__text'> Oups! La page que vous demandez n'existe pas.</p>
-        <Link to='/' className='error__link'>Retourner sur la page d’accueil</Link>
+        <div className='errorContainer'>
+          <h1 className='errorTitle'>404</h1>
+        </div>
+        <p className='errorText'> Oups! La page que vous demandez n'existe pas.</p>
+        <Link to='/' className='errorLink'>Retourner sur la page d’accueil</Link>
       </section>
     </div>
   );

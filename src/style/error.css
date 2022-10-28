@@ -1,0 +1,107 @@
+.Error{
+max-width: 1440px;
+height: 1024px;
+padding: 40px 6%;
+background: #FFFFFF;
+}
+
+section{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+.errorContainer{
+height: 263px;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.errorTitle{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 288px;
+line-height: 142.6%;
+
+/* or 411px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FF6060;
+}
+
+.errorText{
+margin-top: 126px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 142.6%;
+
+
+color: #FF6060;
+}
+
+.errorLink{
+margin-top: 239px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 142.6%;
+text-decoration-line: underline;
+
+color: #FF6060;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .errorContainer{
+height: 99px;
+margin-top: 160px;
+    }
+
+    .errorTitle{
+        
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 142.6%;
+
+/* or 137px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FF6060;
+    }
+
+    .errorText{
+        margin-top: 31px;
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 142.6%;
+
+
+color: #FF6060;
+    }
+
+    .errorLink{
+        margin-top: 133px;
+        margin-left: 0;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 142.6%;
+
+color: #FF6060;
+    }
+}

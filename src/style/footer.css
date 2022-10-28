@@ -1,0 +1,46 @@
+Footer{
+position: relative;
+max-width: 1440px;
+width: auto;
+height: 209px;
+display: flex;
+justify-content: center;
+text-align: center;
+
+background: #000000;
+
+}
+
+Footer p{
+position: absolute;
+top: 64.11%;
+bottom: 13.88%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 142.6%;
+/* or 34px */
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+Footer img{
+position: absolute;
+top: 66px;
+}
+
+/* PORTABLE */
+
+@media only screen and (max-width: 768px)
+{
+    Footer p{
+        top: 48.33%;
+        bottom: 29.67%;
+        font-size: 12px;
+    }
+}

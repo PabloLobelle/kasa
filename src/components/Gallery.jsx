@@ -1,5 +1,8 @@
-import {useState, useEffect} from "react";
-import dataFile from "../data/housings.json";
+import {useState, useEffect} from 'react';
+import { Link } from 'react-router-dom';
+import dataFile from '../data/housings.json';
+import Card from './Card';
+import '../style/gallery.css'
 
 function Gallery() {
   const [houses, setHouses] = useState ([]);
@@ -11,14 +14,19 @@ function Gallery() {
   }, []);
 
   return (
-    <div className="Gallery">
-      <section>
+    <div className='Gallery'>
+      <div className='galleryContainer'>
         {houses.map (house => (
-          <div key = {house.id} className='thumb'>
-            {house.title} {house.cover}
-          </div>
+          <Link key = {house.id} to={`/Housing/${house.id}`} className='thumb'>
+            <Card
+						  key={house.id}  
+						  title={house.title}
+						  cover={house.cover}
+              description={house.description}
+					/>
+          </Link>
         ))}
-      </section>
+      </div>
     </div>
   );
 }

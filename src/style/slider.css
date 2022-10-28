@@ -1,0 +1,43 @@
+.slider{
+position: absolute;
+width: 1240px;
+height: 415px;
+left: 100px;
+top: 128px;
+}
+
+.houseImages{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+mix-blend-mode: normal;
+border-radius: 25px;
+}
+
+.fa-chevron-left{
+    position: absolute;
+    left: 0%;
+    right: 92.26%;
+    top: 35.74%;
+    bottom: 35.44%;
+    z-index: 5;
+    color: white;
+}
+
+.fa-chevron-right{
+    position: absolute;
+width: 46.68px;
+height: 79.2px;
+left: 25.96px;
+top: 8.4px;
+color: white;
+z-index: 5;
+}
+
+.imageNumber{
+    z-index: 5;
+    color: white;
+}
