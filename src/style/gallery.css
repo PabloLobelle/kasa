@@ -1,8 +1,6 @@
 .galleryContainer{
-position: absolute;
 max-width: 1240px;
-left: 0px;
-top: 266px;
+margin-top: 66px;
 
 background: #F7F7F7;
 border-radius: 25px;
