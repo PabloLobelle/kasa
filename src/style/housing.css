@@ -1,279 +1,313 @@
 .Housing{
-position: relative;
-width: 1440px;
-height: 1024px;
+    max-width: 1440px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 40px 6%;
+    }
 
-background: #FFFFFF;
-}
-
-.sectionHousing{
-position: absolute;
-width: 1240px;
-height: 643px;
-left: 100px;
-top: 128px;
+.Housing .accueil{
+    text-decoration: none;
 }
 
 .content{
-position: absolute;
-width: 1240px;
-height: 101px;
-}
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;  
+}    
 
-.ownerName{
-position: absolute;
-width: 93px;
-height: 52px;
-left: 1070px;
-top: 573px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 142.6%;
-
-/* or 26px */
-display: flex;
-align-items: flex-end;
-text-align: right;
-
-color: #FF6060;
-}
-
-.ownerPicture{
-position: absolute;
-width: 64px;
-height: 64px;
-left: 1173px;
-top: 567px;
-
-background: #C4C4C4;
-border-radius: 50px;
+.titleTagContainer{
+    display: flex;
+    flex-direction: column;
 }
 
 .titleContainer{
-position: absolute;
-width: 635px;
-height: 77px;
-top: 573px;
+    height: 77px;
+    display: flex;
+    flex-direction: column;
 }
-
+    
 .titleContainer h1{
-position: absolute;
-right: 48.96%;
-top: 55.96%;
-bottom: 39.06%;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 142.6%;
-
-/* or 51px */
-display: flex;
-align-items: flex-end;
-
-color: #FF6060;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    text-align: left;
+    /* or 51px */
+    display: flex;
+    align-items: flex-end;
+    
+    color: #FF6060;
+}
+    
+.titleContainer div{
+    margin-top: -30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: flex-end;
+    
+    color: #FF6060;
 }
 
-.titleContainer div{
-position: absolute;
-right: 80.83%;
-top: 60.94%;
-bottom: 36.52%;
+.tagPosition{
+    margin-top: 90px;
+    min-width: 115px;
+    height: 25px;
+    display: flex;
+    }
+    
+.tagContainer{
+    background: #FF6060;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 3px 20px;
+    }
+    
+.tagText{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 142.6%;
+    
+    /* identical to box height, or 20px */
+    text-align: center;
+    
+    color: #FFFFFF;
+    }
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 142.6%;
+.ownerRatingContainer{
+    display: flex;
+    flex-direction: column;
+}
 
-/* identical to box height, or 26px */
-display: flex;
-align-items: flex-end;
+.ownerContainer{
+    display: flex;
+    margin-top: 30px;
+    margin-right: -15px;
+    justify-content: space-around;
+}
 
-color: #FF6060;
+.ownerName{
+    margin-top: 8px;
+    width: 93px;
+    height: 52px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    
+    /* or 26px */
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    
+    color: #FF6060;
+}
+
+.ownerPicture{
+    width: 64px;
+    height: 64px;
+    
+    background: #C4C4C4;
+    border-radius: 50px;
 }
 
 .ratingContainer{
-position: absolute;
-width: 196px;
-height: 36px;
-left: 1144px;
-top: 652px;
+    margin-top: 70px;
+    width: 196px;
+    height: 36px;
+    }
+
+.ratingContainer i{
+    margin: 0 6px;
+    font-size: x-large;
 }
 
 .ratingContainer .orange{
     color: #FF6060;
 }
-
+    
 .ratingContainer .grey{
     color: #E3E3E3;
 }
 
-.tagPosition{
-position: absolute;
-min-width: 115px;
-height: 25px;
-top: 670px;
-display: flex;
-}
-
-.tagContainer{
-background: #FF6060;
-width: auto;
-border-radius: 10px;
-margin-right: 10px;
-display: flex;
-justify-content: center;
-text-align: center;
-padding: 3px 20px;
-}
-
-.tagText{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 142.6%;
-
-/* identical to box height, or 20px */
-text-align: center;
-
-color: #FFFFFF;
+.dropContainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
 }
 
 .equipementContainer{
-position: absolute;
-width: 582px;
-height: 52px;
-left: 758px;
-top: 719px;
+width: 47%;
 }
 
-.equipementTitleContainer{
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: #FF6060;
-border-radius: 10px;
+.equipementContainer .dropTitleContainer{
+    border-radius: 10px;
 }
 
-.equipementTitle{
-position: absolute;
-left: 3.44%;
-right: 75.26%;
-top: 25%;
-bottom: 25%;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 142.6%;
-
-/* identical to box height, or 26px */
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
+.equipementContainer .dropTitle{
+    font-size: 18px;
 }
 
-.equipementObjectContainer{
-position: absolute;
-left: 0%;
-right: 0%;
-top: 80.77%;
-bottom: -459.62%;
-
-background: #F7F7F7;
-border-radius: 10px;
+.equipementContainer .dropContentContainer{
+    border-radius: 10px;
 }
 
-.equipementObjectText{
-position: absolute;
-left: 3.44%;
-right: 2.06%;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 142.6%;
-
-list-style-type: none;
-
-/* or 26px */
-
-color: #FF6060;
+.equipementContainer .dropContent{
+    font-size: 18px;
 }
 
 .descriptionContainer{
-position: absolute;
-width: 582px;
-height: 52px;
-top: 719px;
+    width: 47%;
 }
 
-.descriptionTitleContainer{
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: #FF6060;
-border-radius: 10px;
+.descriptionContainer .dropTitleContainer{
+    border-radius: 10px;
 }
 
-.descriptionTitle{
-position: absolute;
-left: 3.44%;
-right: 78.35%;
-top: 25%;
-bottom: 25%;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 142.6%;
-
-/* identical to box height, or 26px */
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
+.descriptionContainer .dropTitle{
+    font-size: 18px;
 }
 
-.descriptionObjectContainer{
-position: absolute;
-left: 0%;
-right: 0%;
-top: 80.77%;
-bottom: -459.62%;
-
-background: #F7F7F7;
-border-radius: 10px;
+.descriptionContainer .dropContentContainer{
+    border-radius: 10px;
 }
 
-.descriptionObjectText{
-position: absolute;
-left: 3.44%;
-right: 2.06%;
+.descriptionContainer .dropContent{
+    font-size: 18px;
+}
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 142.6%;
 
-/* or 26px */
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+    .titleContainer h1{
+        font-size: 30px;
+    }
+}
 
-color: #FF6060;
+@media only screen and (max-width: 768px)
+{
+    .Housing{
+        padding: 20px 3%;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    .titleContainer h1{
+        font-size: 18px;
+    }
+
+    .titleContainer div{
+        font-size: 14px;
+        margin-top: -5px;
+    }
+
+    .tagPosition{
+        margin-top: auto;
+        min-width: 84px;
+        height: 18px;
+    }
+
+    .tagContainer{
+        border-radius: 5px;
+    }
+
+    .tagText{
+        font-size: 10px;
+    }
+
+    .ownerRatingContainer{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .ownerContainer{
+        margin: 13px;
+        width: 93px;
+    }
+
+    .ownerName{
+        font-size: 12px;
+        margin: -18px 10px 0;
+    }
+
+    .ownerPicture{
+        width: 32px;
+        height: 32px;
+        
+        background: #C4C4C4;
+        border-radius: 50px;
+    }
+
+    .ratingContainer{
+        margin-left: -45px;
+        margin-top: auto;
+    }
+
+    .ratingContainer i{
+        font-size: 15px;
+        margin-right: 0px;
+    }
+
+    .dropContainer{
+        flex-direction: column;
+    }
+
+    .descriptionContainer{
+        width: 100%;
+    }
+
+    .equipementContainer{
+        width: 100%;
+    }
+
+    .descriptionContainer .dropTitleContainer{
+        border-radius: 5px;
+    }
+
+    .descriptionContainer .dropTitle{
+        font-size: 13px;
+    }
+
+    .descriptionContainer .dropContentContainer{
+        border-radius: 5px;
+    }
+
+    .descriptionContainer .dropContent{
+        font-size: 12px;
+    }
+
+    .equipementContainer .dropTitleContainer{
+        border-radius: 5px;
+    }
+
+    .equipementContainer .dropTitle{
+        font-size: 13px;
+    }
+
+    .equipementContainer .dropContentContainer{
+        border-radius: 5px;
+    }
+
+    .equipementContainer .dropContent{
+        font-size: 12px;
+    }
 }

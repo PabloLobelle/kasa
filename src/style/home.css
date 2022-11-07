@@ -19,8 +19,13 @@ padding: 40px 6%;
 main{
 max-width: 1240px;
 width: auto;
-margin-top: 171px;
+margin-top: 63px;
 position: relative;
 }
 
-
+@media only screen and (max-width: 768px)
+{
+    .App{
+        padding: 20px 3%;
+    }
+}

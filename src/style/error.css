@@ -5,7 +5,11 @@ padding: 40px 6%;
 background: #FFFFFF;
 }
 
-section{
+.Error .accueil{
+    text-decoration: none;
+}
+
+.Error main{
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -60,9 +64,14 @@ color: #FF6060;
 
 @media only screen and (max-width: 768px)
 {
+    
+    .Error{
+        padding: 20px 3%;
+    }
+
     .errorContainer{
-height: 99px;
-margin-top: 160px;
+        height: 99px;
+        margin-top: 160px;
     }
 
     .errorTitle{

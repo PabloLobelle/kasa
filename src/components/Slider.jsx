@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import dataFile from '../data/housings.json';
 import '../style/slider.css'
 
-function Slider ({picture}) {
+function Slider () {
     const { id } = useParams()
     const house = dataFile.find((item) => item.id === id);
     const { pictures, description} = house;

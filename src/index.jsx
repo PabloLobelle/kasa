@@ -16,6 +16,7 @@ ReactDOM.render(
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Error />} />
         </Routes>
+        <Footer />
     </Router>
     
   </React.StrictMode>,

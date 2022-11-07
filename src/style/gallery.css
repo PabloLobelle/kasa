@@ -51,17 +51,36 @@ text-align: left;
 color: #FFFFFF;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+    .thumb{
+        margin: 10px 0px;
+        width: 100%;
+        height: 255px;
+    }
+
+    .houseCard{
+        width: 100%;
+        height: 255px;
+    }
+
+    .houseImage{
+        width: 100%;
+        height: 255px;
+    }
+}
+
 @media only screen and (max-width: 768px)
 {
     .galleryContainer{
-        top: 0px;
+        top: 120px;
         background-color: #FFFFFF;
         padding: 0;
         width: 100%;
     }
 
     .thumb{
-        margin: 25px 0px;
+        margin: 10px 0px;
         width: 100%;
         height: 255px;
     }

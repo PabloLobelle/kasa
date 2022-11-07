@@ -14,71 +14,83 @@ function Housing() {
   return (
     <div className='Housing'>
       <Header />
-      <section className='sectionHousing'>
+      <main className='sectionHousing'>
         <Slider />
-        
         <div className='content'>
-          <div className='ownerName'>{name}</div>
-          <img src={picture} alt={name} className='ownerPicture'/>
-
-          <div className='ratingContainer'>
-            {rating === "1" && ( 
-              <>
-              <i class="fa-solid fa-star orange"></i>
-              <i class="fa-solid fa-star grey"></i>
-              <i class="fa-solid fa-star grey"></i>
-              <i class="fa-solid fa-star grey"></i>
-              <i class="fa-solid fa-star grey"></i>
-              </>
-            )}
-
-            {rating === "2" && ( 
-              <>
-              <i class="fa-solid fa-star orange"></i>
-              <i class="fa-solid fa-star orange"></i>
-              <i class="fa-solid fa-star grey"></i>
-              <i class="fa-solid fa-star grey"></i>
-              <i class="fa-solid fa-star grey"></i>
-              </>
-            )}
-
-            {rating === "3" && (
-              <>
-              <i class="fa-solid fa-star orange"></i>
-              <i class="fa-solid fa-star orange"></i>
-              <i class="fa-solid fa-star orange"></i>
-              <i class="fa-solid fa-star grey"></i>
-              <i class="fa-solid fa-star grey"></i>
-              </>
-            )}
-          
-            {rating === "4" && (
-              <>
-              <i class="fa-solid fa-star orange"></i>
-              <i class="fa-solid fa-star orange"></i>
-              <i class="fa-solid fa-star orange"></i>
-              <i class="fa-solid fa-star orange"></i>
-              <i class="fa-solid fa-star grey"></i>
-              </>
-            )}
-
-            {rating === "5" && (
-              <>
-              <i class="fa-solid fa-star orange"></i>
-              <i class="fa-solid fa-star orange"></i>
-              <i class="fa-solid fa-star orange"></i>
-              <i class="fa-solid fa-star orange"></i>
-              <i class="fa-solid fa-star orange"></i>
-              </>
-            )}
-            
-          </div>
-
-          <div className='titleContainer'>
+          <div className='titleTagContainer'>
+            <div className='titleContainer'>
             <h1>{title}</h1>
-            <div>{location}</div>
+              <div>{location}</div>
+            </div>
+
+            <div className='tagPosition'>
+              {tags.map((tag) => {
+						  return <div key={`${tag}`} className='tagContainer'><span className='tagText'>{tag}</span></div>;
+              })}
+            </div>
           </div>
 
+          <div className='ownerRatingContainer'>
+            <div className='ownerContainer'>
+              <div className='ownerName'>{name}</div>
+              <img src={picture} alt={name} className='ownerPicture'/>
+            </div> 
+
+            <div className='ratingContainer'>
+              {rating === "1" && ( 
+                <>
+                <i class="fa-solid fa-star orange"></i>
+                <i class="fa-solid fa-star grey"></i>
+                <i class="fa-solid fa-star grey"></i>
+                <i class="fa-solid fa-star grey"></i>
+                <i class="fa-solid fa-star grey"></i>
+                </>
+              )}
+
+              {rating === "2" && ( 
+                <>
+                <i class="fa-solid fa-star orange"></i>
+                <i class="fa-solid fa-star orange"></i>
+                <i class="fa-solid fa-star grey"></i>
+                <i class="fa-solid fa-star grey"></i>
+                <i class="fa-solid fa-star grey"></i>
+                </>
+              )}
+
+              {rating === "3" && (
+                <>
+                <i class="fa-solid fa-star orange"></i>
+                <i class="fa-solid fa-star orange"></i>
+                <i class="fa-solid fa-star orange"></i>
+                <i class="fa-solid fa-star grey"></i>
+                <i class="fa-solid fa-star grey"></i>
+                </>
+              )}
+          
+              {rating === "4" && (
+                <>
+                <i class="fa-solid fa-star orange"></i>
+                <i class="fa-solid fa-star orange"></i>
+                <i class="fa-solid fa-star orange"></i>
+                <i class="fa-solid fa-star orange"></i>
+                <i class="fa-solid fa-star grey"></i>
+                </>
+              )}
+
+              {rating === "5" && (
+                <>
+                <i class="fa-solid fa-star orange"></i>
+                <i class="fa-solid fa-star orange"></i>
+                <i class="fa-solid fa-star orange"></i>
+                <i class="fa-solid fa-star orange"></i>
+                <i class="fa-solid fa-star orange"></i>
+                </>
+              )}
+            </div>
+          </div>
+        </div>
+
+        <div className='dropContainer'>
           <div className='descriptionContainer'>
             <Dropdown title='description'
             content={description}
@@ -95,14 +107,8 @@ function Housing() {
               }
             />
           </div>
-
-          <div className='tagPosition'>
-            {tags.map((tag) => {
-						return <div key={`${tag}`} className='tagContainer'><span className='tagText'>{tag}</span></div>;
-            })}
-          </div>
         </div>
-      </section>
+      </main>
       
     </div>
   );
