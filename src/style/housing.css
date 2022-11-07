@@ -1,11 +1,10 @@
 .Housing{
-    max-width: 1440px;
     background: #FFFFFF;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    padding: 40px 6%;
+    padding: 40px 10%;
     }
 
 .Housing .accueil{

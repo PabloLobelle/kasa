@@ -5,12 +5,11 @@ flex-direction: column;
 }
 
 .App{
-max-width: 1440px;
 background: #FFFFFF;
 display: flex;
 justify-content: center;
 flex-direction: column;
-padding: 40px 6%;
+padding: 40px 10%;
 }
 
 
@@ -22,6 +21,7 @@ width: auto;
 margin-top: 63px;
 position: relative;
 }
+
 
 @media only screen and (max-width: 768px)
 {
