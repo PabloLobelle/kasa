@@ -1,55 +1,55 @@
 .galleryContainer{
-max-width: 1240px;
-margin-top: 66px;
-
-background: #F7F7F7;
-border-radius: 25px;
-display: flex;
-justify-content: space-around;
-text-align: center;
-flex-wrap: wrap;
-padding: 31px 25px;
+    margin: 43px 0;
+    
+    background: #F7F7F7;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 31px 20px;
 }
-
+    
 .thumb{
-margin: 25px;
+    margin: 25px 10px;
 }
-
+    
 .houseCard{
-position: relative;
-width: 340px;
-height: 340px;
-border-radius: 10px;
+    position: relative;
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
 }
-
+    
 .houseImage{
-width: 340px;
-height: 340px;
-border-radius: 10px;
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
 }
-
+    
 .houseCard h2{
-position: absolute;
-left: 5.88%;
-right: 5.88%;
-top: 78.82%;
-bottom: 5.88%;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 142.6%;
-
-/* or 26px */
-display: flex;
-align-items: flex-end;
-text-align: left;
-
-color: #FFFFFF;
+    position: absolute;
+    left: 5.88%;
+    right: 5.88%;
+    top: 78.82%;
+    bottom: 5.88%;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    
+    /* or 26px */
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    
+    color: #FFFFFF;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1070px)
+
+@media only screen and (min-width: 768px) and (max-width: 880px)
 {
     .thumb{
         margin: 10px 0px;
@@ -71,7 +71,7 @@ color: #FFFFFF;
 @media only screen and (max-width: 768px)
 {
     .galleryContainer{
-        top: 120px;
+        margin-top: 11px;
         background-color: #FFFFFF;
         padding: 0;
         width: 100%;

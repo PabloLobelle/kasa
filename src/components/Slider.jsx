@@ -11,7 +11,7 @@ function Slider () {
     const [current,setCurrent] = useState (0);
     const length = pictures.length;
   
-    if(!Array.isArray(pictures) || pictures.lenght <= 0){
+    if(!Array.isArray(pictures) || pictures.length <= 0){
         return null;
     }
 
@@ -31,10 +31,9 @@ function Slider () {
 				return (
                     <div className={index === current ? 'slide active' : 'slide'} key={index}>
                         {index === current && (<img key={`${picture}`} src={picture} alt={description} className='houseImages'/>)}
-                    </div>
-                	) 
-		}
-	     )}
+                    </div>) 
+			    }
+            )}
         </section>
     )
 }

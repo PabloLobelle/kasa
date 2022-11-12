@@ -5,7 +5,6 @@ flex-direction: column;
 justify-content: space-between;
 text-align: center;
 margin-top: 31px;
-margin-bottom: 14px;
 max-width: 1023px;
 }
 
@@ -75,7 +74,7 @@ color: #FF6060;
 @media only screen and (max-width: 768px)
 {
     .dropdown{
-        margin: 20px 0 0 0;
+        margin-top: 20px;
     }
 
     .dropTitleContainer{

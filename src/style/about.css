@@ -1,9 +1,6 @@
 .About{
 background: #FFFFFF;
-display: flex;
-justify-content: center;
-flex-direction: column;
-padding: 40px 10%;
+padding: 40px 5% 0;
 }
 
 .About .accueil{
@@ -19,7 +16,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 text-align: center;
-margin: 0 10% 4%;
+margin: 0 10% 201px;
 }
 
 .About .bannerAboutImage{
@@ -38,7 +35,7 @@ margin: 0 10% 4%;
     }
 
     .aboutSection{
-        margin: 0;
+        margin-bottom: 156px;
     }
 
     .About .bannerContainer{

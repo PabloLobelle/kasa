@@ -1,32 +1,30 @@
 .slider{
     position: relative;
-    margin-top: 25px;
-max-width: 1240px;
-width: 100%;
-height: 415px;
+    max-width: 1240px;
+    width: 100%;
+    height: 415px;
 }
 
 .houseImages{
-width: 100%;
-height: 415px;
-
-mix-blend-mode: normal;
-border-radius: 25px;
+    width: 100%;
+    height: 415px;
+    mix-blend-mode: normal;
+    border-radius: 25px;
 }
 
 .fa-chevron-left{
-    font-size: 47px;
+    font-size: 79px;
     position: absolute;
-    bottom: 50%;
+    top: 157px;
     left: 23.36px;
     z-index: 5;
     color: white;
 }
 
 .fa-chevron-right{
-    font-size: 47px;
+    font-size: 79px;
     position: absolute;
-    bottom: 50%;
+    top: 157px;
     right: 23.36px;
     color: white;
     z-index: 5;
@@ -40,24 +38,24 @@ border-radius: 25px;
     top: 86.19%;
     bottom: 6.01%;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 142.6%;
-
-/* or 26px */
-display: flex;
-align-items: flex-end;
-text-align: center;
-
-color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    
+    /* or 26px */
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    
+    color: #FFFFFF;
 }
 
 @media only screen and (max-width: 768px)
 {
     .slider{
-        margin-top: 39px;
+        margin-top: 27px;
         width: 100%;
         height: 255px;
         }
@@ -71,6 +69,7 @@ color: #FFFFFF;
     .fa-chevron-left{
         font-size: 24px;
         position: absolute;
+        top: 118px;
         left: 5.64px;
         z-index: 5;
         color: white;
@@ -79,6 +78,7 @@ color: #FFFFFF;
     .fa-chevron-right{
         font-size: 24px;
         position: absolute;
+        top: 118px;
         right: 5.84px;
         z-index: 5;
         color: white;

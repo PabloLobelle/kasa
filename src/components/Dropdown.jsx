@@ -10,7 +10,7 @@ function Dropdown (props) {
         <div className='dropdown'>
             <div onClick={handleClick} className='dropTitleContainer'>
                 <div className="dropTitle">{props.title}</div>
-                {drop ? <i class="fa-solid fa-chevron-down"></i> : <i class="fa-solid fa-chevron-up"></i>}
+                {drop ? <i className="fa-solid fa-chevron-down"></i> : <i className="fa-solid fa-chevron-up"></i>}
             </div>
             <div className='dropContentContainer'>
                 {drop && <div className="dropContent"> {props.content} </div>}

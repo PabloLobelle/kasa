@@ -1,99 +1,67 @@
 header{
-max-width: 1240px;
-height: 68px;
-display: flex;
-justify-content: space-between;
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav{
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .accueil{
-margin-left: -25%;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 142.6%;
-
-/* or 34px */
-display: flex;
-align-items: flex-end;
-text-align: right;
-text-decoration-line: underline;
-
-color: #FF6060;
+    margin-left: -30%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    
+    /* or 34px */
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    text-decoration-line: underline;
+    
+    color: #FF6060;
 }
 
 .apropos{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 142.6%;
-
-/* or 34px */
-display: flex;
-align-items: flex-end;
-text-align: right;
-
-color: #FF6060;
-
-text-decoration: none
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    
+    /* or 34px */
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    
+    color: #FF6060;
+    text-decoration: none
 }
 
 /* PORTABLE */
 
 @media only screen and (max-width: 768px)
 {
-    header{
-        height: 47px;
-        
-    }
     header img{
         height: 47px;
         width: 145px;
-        margin-top: 20px;
     }
 
     nav{
-        height: 38px;
         width: 140px;
-        margin-top: 18px;
     }
 
     .accueil{
         margin-left: 10%;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 142.6%;
-
-/* or 17px */
-display: flex;
-align-items: flex-end;
-text-align: right;
-text-decoration-line: underline;
-
-color: #FF6060;
+        font-size: 12px;
+        text-decoration-line: underline;
     }
 
     .apropos{
-    
-        font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 142.6%;
-
-/* or 17px */
-display: flex;
-align-items: flex-end;
-text-align: right;
-
-color: #FF6060;
+        font-size: 12px;
     }
 }

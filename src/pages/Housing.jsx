@@ -39,51 +39,51 @@ function Housing() {
             <div className='ratingContainer'>
               {rating === "1" && ( 
                 <>
-                <i class="fa-solid fa-star orange"></i>
-                <i class="fa-solid fa-star grey"></i>
-                <i class="fa-solid fa-star grey"></i>
-                <i class="fa-solid fa-star grey"></i>
-                <i class="fa-solid fa-star grey"></i>
+                <i className="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star grey"></i>
+                <i className="fa-solid fa-star grey"></i>
+                <i className="fa-solid fa-star grey"></i>
+                <i className="fa-solid fa-star grey"></i>
                 </>
               )}
 
               {rating === "2" && ( 
                 <>
-                <i class="fa-solid fa-star orange"></i>
-                <i class="fa-solid fa-star orange"></i>
-                <i class="fa-solid fa-star grey"></i>
-                <i class="fa-solid fa-star grey"></i>
-                <i class="fa-solid fa-star grey"></i>
+                <i className="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star grey"></i>
+                <i className="fa-solid fa-star grey"></i>
+                <i className="fa-solid fa-star grey"></i>
                 </>
               )}
 
               {rating === "3" && (
                 <>
-                <i class="fa-solid fa-star orange"></i>
-                <i class="fa-solid fa-star orange"></i>
-                <i class="fa-solid fa-star orange"></i>
-                <i class="fa-solid fa-star grey"></i>
-                <i class="fa-solid fa-star grey"></i>
+                <i className="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star grey"></i>
+                <i className="fa-solid fa-star grey"></i>
                 </>
               )}
           
               {rating === "4" && (
                 <>
-                <i class="fa-solid fa-star orange"></i>
-                <i class="fa-solid fa-star orange"></i>
-                <i class="fa-solid fa-star orange"></i>
-                <i class="fa-solid fa-star orange"></i>
-                <i class="fa-solid fa-star grey"></i>
+                <i className="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star grey"></i>
                 </>
               )}
 
               {rating === "5" && (
                 <>
-                <i class="fa-solid fa-star orange"></i>
-                <i class="fa-solid fa-star orange"></i>
-                <i class="fa-solid fa-star orange"></i>
-                <i class="fa-solid fa-star orange"></i>
-                <i class="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star orange"></i>
+                <i className="fa-solid fa-star orange"></i>
                 </>
               )}
             </div>
@@ -97,7 +97,7 @@ function Housing() {
             />
           </div>
           <div className='equipementContainer'>
-            <Dropdown title='equipments'
+            <Dropdown title='equipements'
               content={
                 <ul>
                   {equipments.map((equipment) => {

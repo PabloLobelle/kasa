@@ -1,6 +1,6 @@
 .Error{
-padding: 40px 10%;
-background: #FFFFFF;
+    padding: 40px 5% 0;
+    background: #FFFFFF;
 }
 
 .Error .accueil{
@@ -8,57 +8,57 @@ background: #FFFFFF;
 }
 
 .Error main{
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .errorContainer{
-height: 263px;
-display: flex;
-justify-content: center;
-text-align: center;
+    height: 263px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .errorTitle{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 288px;
-line-height: 142.6%;
-
-/* or 411px */
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FF6060;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 142.6%;
+    
+    /* or 411px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FF6060;
 }
 
 .errorText{
-margin-top: 126px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 142.6%;
-
-
-color: #FF6060;
+    margin-top: 126px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    
+    color: #FF6060;
 }
 
 .errorLink{
-margin-top: 239px;
-margin-bottom: 159px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 142.6%;
-text-decoration-line: underline;
-
-color: #FF6060;
+    margin-top: 150px;
+    margin-bottom: 159px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    text-decoration-line: underline;
+    
+    color: #FF6060;
 }
 
 @media only screen and (max-width: 768px)
@@ -70,46 +70,20 @@ color: #FF6060;
 
     .errorContainer{
         height: 99px;
-        margin-top: 160px;
+        margin-top: 120px;
     }
 
     .errorTitle{
-        
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 96px;
-line-height: 142.6%;
-
-/* or 137px */
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FF6060;
+        font-size: 96px;
     }
 
     .errorText{
-        margin-top: 31px;
-        font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 142.6%;
-
-
-color: #FF6060;
+        margin-top: 11px;
+        font-size: 18px;
     }
 
     .errorLink{
-        margin-top: 133px;
-        margin-left: 0;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 142.6%;
-
-color: #FF6060;
+        margin: 120px 0 225px;
+        font-size: 14px;
     }
 }
