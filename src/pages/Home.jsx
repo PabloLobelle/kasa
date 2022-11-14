@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <Header />
       <main>
-          <Banner />
-          <Gallery />
+        <Banner />
+        <Gallery />
       </main>
     </div>
   );

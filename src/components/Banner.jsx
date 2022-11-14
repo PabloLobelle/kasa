@@ -10,9 +10,7 @@ function Banner() {
             <img src={kalenEmsley} alt='trees, rocks, sea' className='bannerAboutImage'/>
             <img src={bannerMobile} alt='trees, rocks, sea' className='bannerMobileImage'/>
             <img src={bannerImage} alt='trees, rocks, sea' className='bannerImage'/>
-            
             <img src={background} alt='black background' className='bannerBackground'/>
-
             
             <p>Chez vous, partout et ailleurs</p>
         </section>

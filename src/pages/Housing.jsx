@@ -4,13 +4,17 @@ import dataFile from '../data/housings.json';
 import Header from '../components/Header';
 import Dropdown from '../components/Dropdown';
 import Slider from '../components/Slider';
+import Error from '../pages/Error'
 import '../style/housing.css'
 
 function Housing() {
-  const { id } = useParams()
+  const { id } = useParams();
   const house = dataFile.find((item) => item.id === id);
+  if (house === undefined){
+    return (<Error />)
+  }
   const { title, description, host: { name, picture} , rating, location, equipments, tags} = house;
-
+  
   return (
     <div className='Housing'>
       <Header />

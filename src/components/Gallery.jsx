@@ -23,7 +23,7 @@ function Gallery() {
 						  title={house.title}
 						  cover={house.cover}
               description={house.description}
-					/>
+					  />
           </Link>
         ))}
       </div>
