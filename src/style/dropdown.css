@@ -1,68 +1,67 @@
 .dropdown{
-position: relative;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-text-align: center;
-margin-top: 31px;
-max-width: 1023px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 31px;
+    max-width: 1023px;
 }
 
 .dropTitleContainer{
-position: relative;
-background: #FF6060;
-border-radius: 5px;
-display: flex;
-justify-content: space-between;
-text-align: center;
-height: 47px;
+    position: relative;
+    background: #FF6060;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 47px;
 }
 
 .fa-chevron-up, .fa-chevron-down
 {
-position: absolute;
-right: 16.86px;
-top: 15px;
-bottom: 78.3%;
-color: #FFFFFF;
+    position: absolute;
+    right: 16.86px;
+    top: 15px;
+    bottom: 78.3%;
+    color: #FFFFFF;
 }
 
 .dropTitle{
-position: absolute;
-left: 1.77%;
-top: 7px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 142.6%;
-
-/* or 34px */
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
+    position: absolute;
+    left: 1.77%;
+    top: 7px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    
+    /* or 34px */
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
 }
 
 .dropContentContainer{
-background: #F7F7F7;
-border-radius: 5px;
-max-width: 1023px;
+    background: #F7F7F7;
+    border-radius: 5px;
+    max-width: 1023px;
 }
 
 .dropContent{
-
-text-align: left;
-margin: 30px 20px 12px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 142.6%;
-
-/* or 26px */
-
-color: #FF6060;
+    text-align: left;
+    margin: 30px 20px 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 142.6%;
+    
+    /* or 26px */
+    
+    color: #FF6060;
 }
 
 .dropContent ul

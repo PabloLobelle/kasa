@@ -97,6 +97,7 @@
 .ownerContainer{
     display: flex;
     margin-top: 24px;
+    justify-content:flex-end;
 }
 
 .ownerName{
@@ -231,7 +232,7 @@
     }
 
     .ownerContainer{
-        margin: 13px 0;
+        margin-bottom: 10px;
         width: 93px;
     }
 
