@@ -30,7 +30,9 @@ function Slider () {
                     <i className="fa-solid fa-chevron-left" onClick={prevSlide} />
                     <i className="fa-solid fa-chevron-right" onClick={nextSlide} />
                     <div className="imageNumber"> {current + 1}/{pictures.length} </div>
-                </> )}
+                </>
+            )}
+
             {pictures.map((picture, index) => {
 				return (
                     <div className={index === current ? 'slide active' : 'slide'} key={index}>
@@ -41,4 +43,5 @@ function Slider () {
         </section>
     )
 }
+
 export default Slider;

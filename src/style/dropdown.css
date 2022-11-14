@@ -18,8 +18,7 @@
     height: 47px;
 }
 
-.fa-chevron-up, .fa-chevron-down
-{
+.fa-chevron-up, .fa-chevron-down{
     position: absolute;
     right: 16.86px;
     top: 15px;
@@ -64,8 +63,7 @@
     color: #FF6060;
 }
 
-.dropContent ul
-{
+.dropContent ul{
     list-style: none;
     margin-left: -40px;
 }
@@ -78,7 +76,7 @@
 
     .dropTitleContainer{
         height: 30px;
-        }
+    }
 
     .fa-chevron-up, .fa-chevron-down{
         position: absolute;

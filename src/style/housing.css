@@ -1,7 +1,7 @@
 .Housing{
     background: #FFFFFF;
     padding: 40px 5% 14px;
-    }
+}
 
 .Housing .accueil{
     text-decoration: none;
@@ -74,7 +74,7 @@
     text-align: center;
     padding: 3px 20px;
     margin-bottom: 5px;
-    }
+}
     
 .tagText{
     font-family: 'Montserrat';
@@ -87,7 +87,7 @@
     text-align: center;
     
     color: #FFFFFF;
-    }
+}
 
 .ownerRatingContainer{
     display: flex;
@@ -131,7 +131,7 @@
     margin-top: 24px;
     width: 196px;
     height: 36px;
-    }
+}
 
 .ratingContainer i{
     margin: 0 6px;

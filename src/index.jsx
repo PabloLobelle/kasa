@@ -10,13 +10,13 @@ import Footer from './components/Footer'
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/housing/:id" element={<Housing />} />
-          <Route path="/about" element={<About />} />
-          <Route path="*" element={<Error />} />
-        </Routes>
-        <Footer />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/housing/:id" element={<Housing />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
+      <Footer />
     </Router>
     
   </React.StrictMode>,
